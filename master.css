@@ -386,6 +386,7 @@ color:rgb(159, 103, 224) ;
 @media(max-width:767px){
     .contact-us .content{
         flex-direction: column;
+        margin-left: 50px;
     }
 }
 .contact-us .content form{
@@ -397,10 +398,12 @@ padding: 20px;
 display: block;
 border: 1px solid #d21616 ;
 margin-bottom: 30px;
-width: 80%;
-    background-color: white;
+width: 90%;
+height: 50px;
+background-color: white;
 color: black;
 font-size:20px ;
+border-radius: 20px;
 }
 
 .contact-us .content form .main-input:focus{
@@ -443,7 +446,7 @@ text-transform: uppercase;
 margin-bottom: 30px;
 font-weight: 500;
 font-size: 25px;
-color:rgb(6, 6, 5);
+color:white;
 }
 .contact-us .content .info .phone{
     display: block;
@@ -476,7 +479,7 @@ color:rgb(6, 6, 5);
     background-image: url(./images/dentist.jpg);
     position: relative;
     color: yellow;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
 }
 .footer::before{
@@ -493,9 +496,13 @@ color:rgb(6, 6, 5);
 }
 .footer p{
     transition: 0.5s;
+
 }
 .footer p:hover{
-  color: red;
-  font-size: 40px;
+  color:black;
+  font-size: 30px;
+}
+.footer .container a{
+    color: red;
 }
 
