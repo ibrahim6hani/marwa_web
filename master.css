@@ -398,7 +398,7 @@ display: block;
 border: 1px solid #d21616 ;
 margin-bottom: 30px;
 width: 80%;
-    background-color: var(--secclr);
+    background-color: white;
 color: white;
 font-size:20px ;
 }
@@ -409,7 +409,7 @@ font-size:20px ;
 
 .contact-us .content form textarea.main-input{
     height:200px ;
-        background-color: var(--secclr);
+        background-color: white;
         color: white;
 
 }
